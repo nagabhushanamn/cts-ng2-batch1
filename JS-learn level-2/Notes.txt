@@ -7,7 +7,6 @@
   A.New Syntax
   -------------
 
-
     1. let & const keywords with block-scope
     2. function default params
     3. rest parameter
@@ -16,4 +15,37 @@
     6. String interpolation
     7. object-literal enhancements
     8. spread operator
+    9. Symbol - data type
+    10. class syntax
 
+  
+
+
+  -----------------------------------------------------
+
+
+
+  .js-lang
+
+    --> single-threaded lang , we do cuncurrent actions
+    --> Non-Blocking IO
+
+
+
+    JS-runtime ( e.g browser)
+
+    e.g chrome
+
+
+    1. JS-Engine ( v8 )
+
+        a. single-call-stack  ==> to execute contexts
+        b. heap       ==> to hold objects
+
+    2. browser w3c API Impln ( e.g DOM , XHR , timer , HTML5 APIs..) based on w3c standards
+
+    3. Event/Callback/Message queue
+
+    4. Event-Loop
+
+    -----------------------------------------------------------
