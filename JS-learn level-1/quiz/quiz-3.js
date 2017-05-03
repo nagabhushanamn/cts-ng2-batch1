@@ -11,13 +11,9 @@ function sessionStart() {
             return doLearn;
         }
     }
-
-
     function Employee(name) {
         this.name = name;
     }
-
-
     let tnr = new Trainer('Nag');  // constructor invocation
     let tnr2 = new Trainer('Ria');  // constructor invocation
 
@@ -26,12 +22,8 @@ function sessionStart() {
 
     let doLearn = tnr.doTeach();  // method invocation
 
-
     doLearn.call(e1);  // call/apply/bind invocation
     doLearn.call(e2);
-
-
-
 }
 
 sessionStart();  // function invocation

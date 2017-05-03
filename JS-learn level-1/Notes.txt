@@ -57,7 +57,7 @@
 
        ------------------------------
 
-       TOC
+       level-1
        -------
        
        1. data-types
@@ -67,168 +67,21 @@
        5. closures
        6. inheritance
        7. objects - depth
-
        8. concurrency-model
 
 
+       ------------------------------
 
-          .js-lang is
+       level-2
+       -------
 
-          --> single-threaded lang
-          --> Non blocking IO
-
-             ??
-
-          -------------------------------
-
-           browser e.g chrome
-
-            1. JS-engine
-
-                  a. single-call-stack  ==> to execute context(s)
-                  b. heap   ==> to keep objects
-
-            2. browser APIs
-
-                  e.g  DOM,XHR,Timer, HTMl5 APIs
-           
-            3. callback/message/event queue
-
-            4. Event-Loop 
-
-
-           --------------------------------------------
-
-
-           9. .js-lang with browser-side apps
-
-                    
-            wat .js can do on browser with HTML-pages?
-
-
-            using browser provied APIs, 
-            .js-lang can bring any dynamic activity to web-page.
-
-            browser provied APIs e.g  DOM,XHR,Timer , etc... are based on w3c standards
-
-            using DOM
-            ----------
-            --> can create,retreive/update/delete HTML elements
-            --> can change element's attributes
-            --> can change element's style
-            --> can change element's context
-            --> can change element's inner-content
-            --> can listen events on elements
-            --> can create rich UI components
-
-            using XHR
-            -----------
-            --> can communicate with server async, update resp in current-page ( AJAX )
-
-            using TimerAPI
-            --------------
-            setTimeout()
-            setInterval()
-
-            HTMl5 - APIs
-            -------------
-
-            ref : https://developer.mozilla.org/en/docs/Web/Guide/HTML/HTML5
-
-
-             caniuse.com     
-
-
-        ------------------------------------------------
-
-
-        complexities of plain-js
-
-
-        --> browser compatibility
-        --> performance issues ( e.g DOM manipulation )
-        --> memory managenet ( e.g cleaning un-used DOM elements ,)
-
-        --> too much code for simple oprns
-        --> code organization is difficult
-
-        ---------------------------------------------------
-
-        soln :
-
-          --> using .js Libraries and F.Ws
-            
-             1. jQuery ==> DOM utility lib
-
-             2. React from Facebook ==>  UI libray
-
-             many...
-          ---------------------------------------------------   
-
-          10. JS-modules
-
-                  popular .js-module standards
-
-                  1. AMD ( Async Module Definition )  spec
-
-                        define(mid,[],factory);  ==> to define new-module
-                        require(config,[],callback); ==> to require/import/load module
-
-                  2. commonJS
-
-                        points
-
-                         --> every .js file is an module by default
-                         --> all the var/func are private to that by default.
-                         --> to abstract any member to other modules , use 'module.exports'
-                         --> to import any meber from other module , use 'require()'
-
-                         imp-note: Node.js implements commonJS as default module standard
-
-                  3. ES6 modules
-
-                         --> every .js file is module
-                         --> all the var/func are private to that by default.
-                         --> to abstract any member to other modules , use 'export'
-                         --> to import any meber from other module , use 'import'
-
-                  4. SystemJS
-
-
-            ------------------------------------------------------   
-
-            11. Build Tools
-
-
-            
-
-
-
-
-
-
-
-
-
-                  ES6  
-                  ---------
-
-                  => New- syntax
-
-                  a. let & const keywords & block-scope
-                  b. arrow functions
-                  c. rest & spread operators
-                  d. function default params
-                  e. destructuring
-                  f. string interpolation
-                  g. octal and binary representation
-                  h. object literal extensions
-                  i. class syntax 
-                  
-            ------------------------------------  
-
-
+       1. ES6 Features 
+       2. TypeScript
        
+
+
+    
+
 
 
 
