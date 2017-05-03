@@ -1,0 +1,19 @@
+
+
+  latest : ECMA2015 or ES6
+  ----------------------------
+
+
+  A.New Syntax
+  -------------
+
+
+    1. let & const keywords with block-scope
+    2. function default params
+    3. rest parameter
+    4. arrow function
+    5. destructuring
+    6. String interpolation
+    7. object-literal enhancements
+    8. spread operator
+
