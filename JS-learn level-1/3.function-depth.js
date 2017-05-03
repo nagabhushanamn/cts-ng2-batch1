@@ -4,8 +4,8 @@
 
     .js lang , we can create func in 2 ways
 
-    1. function declaration
-    2. function expression
+        1. function declaration
+        2. function expression
 
 
 */
@@ -126,10 +126,6 @@
     
 // }
 //-----------------------------------
-
-
-
-
 
 function getFood() {
     return "No Food";
