@@ -1,0 +1,44 @@
+
+
+JS module standards
+--------------------
+
+  from third-parties
+
+
+  --> AMD ( Async Module Definition )
+  --> commonJS / Node modules/packages
+  --> UMD  
+
+
+  EcmaScript 2015 / ES6
+
+  --> ES6 Modules
+
+  TypeScript
+
+  --> TypeScript Modules and Namespaces
+
+
+  //-------------------------------------------------------------------------------
+
+
+
+  commonJS or Node modules/packages
+
+
+  points
+
+  --> each .js file is a module by default
+  --> all var/func in .js file are private to that module
+  --> to abstract/export any member , shud use "module.exports"
+  --> to import/require any member from other module , shud use "require()"
+  --> we can group related modules into packages
+
+  //-------------------------------------------------------------------------------
+
+
+   ES6 Modules
+
+
+   
