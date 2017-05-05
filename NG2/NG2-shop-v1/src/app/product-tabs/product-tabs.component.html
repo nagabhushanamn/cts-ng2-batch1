@@ -1,0 +1,26 @@
+<section>
+  <ul class="nav nav-tabs">
+    <li [ngClass]="{active:isTabSelected(1),'other-class':true}"><a (click)="handleTabChange($event,1)" href="#">Description</a></li>
+    <li [class.active]="isTabSelected(2)"><a (click)="handleTabChange($event,2)" href="#">Specification</a></li>
+    <li [class.active]="isTabSelected(3)"><a (click)="handleTabChange($event,3)" href="#">Reviews</a></li>
+  </ul>
+  <div class="panel" *ngIf="isTabSelected(1)">
+    <p>{{product.description}}</p>
+  </div>
+  <div class="panel" *ngIf="isTabSelected(2)">
+    <p>Not Yet</p>
+  </div>
+  <div class="panel" *ngIf="isTabSelected(3)">
+    
+    <div *ngFor="let review of product.reviews" class="alert alert-info">
+      <span class="badge">{{review.stars}}</span><span class="badge">{{review.author}}</span>
+      <hr/>
+      <p>{{review.comment}}</p>
+    </div>
+
+    <hr/>
+
+    <product-review-form [product]="product"></product-review-form>
+    
+  </div>
+</section>

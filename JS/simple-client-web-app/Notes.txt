@@ -61,5 +61,42 @@ solns :
        --> jQuery
 
 
+        problems with jQuery
+
+        --> too low level lib ( i.e close to DOM )
+        --> code oraganization difficult
+        --> data-binding is manual
+
+
+      Higher-Level .js lib and F.Ws
+
+
+      --> knockout
+      --> Angular 1.x
+      --> Backbone
+      --> Ember.js
+      --> DOJO
+      --> ExtJS
+
+      etc..............
+
+      -------------------------------------
+
+
+
+      latest trend/style to develope front-end appln  
+
+
+      ==> component style
+
+
+        1. React  from facebook
+
+        2. Angular 2.x 
+
+
+
+        -------------------------------------
+
   
 

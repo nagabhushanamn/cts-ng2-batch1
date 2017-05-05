@@ -1,0 +1,19 @@
+<div class="list-group-item">
+  
+  <div class="row">
+    
+    <div class="col-md-3 col-sm-3">
+        <img [src]="product.images[0].thumb" class="img-responsive"/>
+    </div>
+    
+    <div class="col-md-9 col-sm-9">
+      <div *ngIf="!product.notAvailable">
+        <h2>{{product.name|uppercase}}</h2>
+        <h3>{{product.price|currency:'INR':true:'4.2-3'}}</h3>
+        <button *ngIf="product.canBuy" class="btn btn-primary">Buy</button>
+      </div>
+      <hr/>
+       <product-tabs [product]="product"></product-tabs>
+    </div>
+  </div>
+</div>

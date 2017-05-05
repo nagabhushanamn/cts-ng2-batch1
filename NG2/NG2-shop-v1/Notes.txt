@@ -1,0 +1,28 @@
+
+
+NG2-shop
+----------------------------------------------
+
+   AppComponent
+
+        ProductList
+
+                Product(s)
+
+                    TabsComponent
+
+                        Description
+                        Specification
+                        Reviews
+
+                            ReviewForm
+
+
+    ----------------------------------------------           
+
+
+    product ==> (id, name , price , description )      
+
+    ----------------------------------------------                  
+
+
