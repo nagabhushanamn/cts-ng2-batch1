@@ -1,0 +1,2 @@
+C:\Source\HelloTypeScriptVS\HelloTypeScriptVS\obj\Debug\HelloTypeScriptVS.njsprojResolveAssemblyReference.cache
+C:\Source\HelloTypeScriptVS\HelloTypeScriptVS\bin\Microsoft.NodejsTools.WebRole.dll
