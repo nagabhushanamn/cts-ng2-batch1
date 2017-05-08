@@ -1,0 +1,12 @@
+
+
+UI
+
+
+----------------------
+0. AppComponent
+    1. Navbar
+    2. Story-Form
+    3. StoryList
+        3.1. Story(s)
+----------------------

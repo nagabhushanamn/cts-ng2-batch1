@@ -1,0 +1,13 @@
+
+
+<div class="container">
+    <app-navbar></app-navbar>
+    <button class="btn btn-default" on-click="toggleStoryForm()">New Story</button>
+    <hr/>
+    <div class="row" *ngIf="isStoryFormVisible">
+        <div class="col-sm-6 col-md-6">
+            <app-story-form (story)="addNewStory($event)"></app-story-form>
+        </div>
+    </div>    
+    <app-story-list *ngIf="stories.length!==0"  [stories]="stories"></app-story-list>    
+</div>

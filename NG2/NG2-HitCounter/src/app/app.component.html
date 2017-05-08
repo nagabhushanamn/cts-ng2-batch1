@@ -1,0 +1,13 @@
+
+<div class="page-header">NG2-Hit Counter </div>
+<div class="panel panel-primary">
+  <div class="panel-heading"> {{title}} </div>
+  <div class="panel-body">
+    enter-count: <input class="inp-lg" [(ngModel)]="count" /><hr/>
+    <app-hit-button (hit)="incCount($event)" incBy="1" [count]="count"></app-hit-button>
+    <app-hit-button (hit)="incCount($event)" incBy="10" [count]="count"></app-hit-button>
+    <app-hit-button (hit)="incCount($event)" incBy="100" [count]="count"></app-hit-button>
+    <hr/>
+    <app-hit-count-display [count]="count"></app-hit-count-display>
+  </div>
+</div>

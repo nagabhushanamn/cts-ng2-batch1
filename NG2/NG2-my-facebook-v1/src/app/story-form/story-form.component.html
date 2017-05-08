@@ -1,0 +1,16 @@
+<div class="panel panel-danger">
+  <div class="panel-heading">New Story Form</div>
+  <div class="panel-body">
+    <form id="post-form" (submit)="handleSubmit($event)">
+      <div class="form-group">
+        <label>Author:</label>
+        <input class="form-control" name="author" [(ngModel)]="newStory.author"/>
+      </div>
+      <div class="form-group">
+        <label>Message:</label>
+        <textarea class="form-control" name="message" [(ngModel)]="newStory.message"></textarea>
+      </div>
+      <button class="btn btn-primary">submit</button>
+    </form>
+  </div>
+</div>
